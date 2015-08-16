@@ -1,8 +1,9 @@
-#!/usr/bin/env ruby -U
+#!/usr/bin/env ruby
 
-require 'azure'
 require 'thor'
 require 'fileutils'
+require 'nokogiri'
+require 'base64'
 
 module Azure
   class Pfxer < Thor
